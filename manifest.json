@@ -1,0 +1,55 @@
+{
+  "manifest_version": 3,
+  "name": "IITG Wi-Fi Auto Login",
+  "version": "2.1.0",
+  "description": "Automatic login for IITG Agnigarh captive portal with enhanced security and Material You UI",
+  
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications",
+    "activeTab"
+  ],
+  
+  "host_permissions": [
+    "https://agnigarh.iitg.ac.in:1442/*",
+    "https://connectivitycheck.gstatic.com/*",
+    "https://www.google.com/*"
+  ],
+  
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon-default-48.png",
+      "32": "icons/icon-default-48.png", 
+      "48": "icons/icon-default-48.png",
+      "128": "icons/icon-default-48.png"
+    },
+    "default_title": "IITG Wi-Fi Auto Login"
+  },
+  
+  "options_page": "options/options.html",
+  
+  "icons": {
+    "16": "icons/icon-default-48.png",
+    "32": "icons/icon-default-48.png",
+    "48": "icons/icon-default-48.png",
+    "128": "icons/icon-default-48.png"
+  },
+  
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
