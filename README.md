@@ -12,7 +12,7 @@
 
 *Never worry about captive portal logins again!*
 
-[🔽 Download](#-installation) • [📖 Documentation](#-features) • [🐛 Issues](https://github.com/imsahil37/autologin#/issues) • [💡 Contributing](#-contributing)
+[🔽 Download](#-installation) • [📖 Documentation](#-features) • [🐛 Issues](https://github.com/imsahil37/autologin/issues) • [💡 Contributing](#-contributing)
 
 </div>
 
@@ -62,8 +62,8 @@
 
 1. **📥 Download the Extension**
    ```bash
-   git clone https://github.com/imsahil37/autologin#.git
-   cd autologin#
+   git clone https://github.com/imsahil37/autologin.git
+   cd autologin
    ```
 
 2. **🔧 Enable Developer Mode**
@@ -72,7 +72,7 @@
 
 3. **📂 Load the Extension**
    - Click **"Load unpacked"**
-   - Select the `autologin#` folder
+   - Select the `autologin` folder
    - Extension will appear with a Wi-Fi icon 🌐
 
 4. **⚙️ Configure Credentials**
@@ -232,7 +232,7 @@ window.debugExtension.clearAllData()      // Reset extension
 We welcome contributions! Here's how you can help:
 
 ### 🐛 Bug Reports
-- Use the [issue tracker](https://github.com/imsahil37/autologin#/issues)
+- Use the [issue tracker](https://github.com/imsahil37/autologin/issues)
 - Include detailed reproduction steps
 - Attach debug logs when possible
 
@@ -245,7 +245,7 @@ We welcome contributions! Here's how you can help:
 
 ```bash
 # Clone the repository
-git clone https://github.com/imsahil37/autologin#.git
+git clone https://github.com/imsahil37/autologin.git
 
 # Load in developer mode
 # No build tools needed - pure vanilla JavaScript!
@@ -301,12 +301,12 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **🌟 Star this repo if it helped you!** • **🔄 Share with friends** • **🐛 Report issues**
 
-[![GitHub stars](https://img.shields.io/github/stars/imsahil37/autologin#?style=social)](https://github.com/imsahil37/autologin#/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/imsahil37/autologin#?style=social)](https://github.com/imsahil37/autologin#/network)
+[![GitHub stars](https://img.shields.io/github/stars/imsahil37/autologin?style=social)](https://github.com/imsahil37/autologin/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/imsahil37/autologin?style=social)](https://github.com/imsahil37/autologin/network)
 
 ---
 
-**📧 Questions?** Open an [issue](https://github.com/imsahil37/autologin#/issues) • **💬 Discussion?** Start a [discussion](https://github.com/imsahil37/autologin#/discussions)
+**📧 Questions?** Open an [issue](https://github.com/imsahil37/autologin/issues) • **💬 Discussion?** Start a [discussion](https://github.com/imsahil37/autologin/discussions)
 
 *Happy browsing! 🌐✨*
 
